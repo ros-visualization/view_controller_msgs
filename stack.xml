@@ -1,0 +1,15 @@
+<stack>
+  <description brief="Messages for (camera) view controllers">
+     view_controller_msgs is intended to contain common messages
+     that can be used to issue commands to a view controller in a
+     visualization program (such as rviz).
+
+     This package should be considered experimental/unstable during the 
+     Groovy release cycle.
+  </description>
+  <author>Adam Leeper</author>
+  <license>BSD</license>  
+
+  <url>http://ros.org/wiki/view_controller_msgs</url>
+  <depend stack="ros" /> <!-- for rosmake -->
+</stack>
