@@ -40,7 +40,7 @@ while not rospy.is_shutdown():
   cp.time_from_start = rospy.Duration(-1.0)
   cp.mouse_interaction_mode = (cp.mouse_interaction_mode + 1)%3
   cp.interaction_disabled = not cp.interaction_disabled
-  cp.maintain_fixed_up_axis = not cp.maintain_fixed_up_axis
+  cp.allow_free_yaw_axis = not cp.allow_free_yaw_axis
 
   print "Publishing a message!"
   pub.publish(cp)

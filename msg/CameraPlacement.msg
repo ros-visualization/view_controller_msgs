@@ -35,4 +35,4 @@ uint8 FPS   = 2 # Activates the FPS-style controller
 bool interaction_disabled
 
 # A flag indicating if the camera yaw axis is fixed to +Z of the camera attached_frame
-bool maintain_fixed_up_axis
+bool allow_free_yaw_axis
