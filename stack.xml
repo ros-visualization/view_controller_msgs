@@ -12,4 +12,6 @@
 
   <url>http://ros.org/wiki/view_controller_msgs</url>
   <depend stack="ros" /> <!-- for rosmake -->
+  <depend stack="geometry_msgs"/>
+  <depend stack="std_msgs"/>
 </stack>
