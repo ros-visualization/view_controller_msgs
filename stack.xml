@@ -13,6 +13,7 @@
   <url>http://ros.org/wiki/view_controller_msgs</url>
   <depend stack="ros" /> <!-- for rosmake -->
   <depend stack="langs" /> <!-- "ros" stack doesn't seem to pull in msg generation anymore -->
+  <depend stack="actionlib" /> <!-- "ros" stack doesn't seem to pull in msg generation anymore -->
   <depend stack="geometry_msgs"/>
   <depend stack="std_msgs"/>
 </stack>
