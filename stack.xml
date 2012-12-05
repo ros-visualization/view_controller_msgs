@@ -11,6 +11,8 @@
   <license>BSD</license>  
 
   <url>http://ros.org/wiki/view_controller_msgs</url>
+  <depend stack="ros" /> <!-- "ros" stack doesn't seem to pull in msg generation anymore -->
+  <depend stack="common_rosdeps" /> <!-- "ros" stack doesn't seem to pull in msg generation anymore -->
   <depend stack="langs-dev" /> <!-- "ros" stack doesn't seem to pull in msg generation anymore -->
   <depend stack="genmsg" /> <!-- "ros" stack doesn't seem to pull in msg generation anymore -->
   <depend stack="geometry_msgs"/>
