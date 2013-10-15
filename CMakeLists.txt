@@ -1,8 +1,18 @@
-cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
-rosbuild_make_distribution(0.1.1)
+cmake_minimum_required(VERSION 2.8.3)
+project(view_controller_msgs)
 
-rosbuild_init()
+set(MSG_DEPS
+  std_msgs
+  geometry_msgs)
 
-rosbuild_genmsg()
+find_package(catkin REQUIRED genmsg ${MSG_DEPS})
 
+set(MSG_FILES
+CameraPlacement.msg
+)
+
+add_message_files(DIRECTORY msg FILES ${MSG_FILES})
+
+generate_messages(DEPENDENCIES ${MSG_DEPS})
+
+catkin_package(DEPENDS ${MSG_DEPS})
