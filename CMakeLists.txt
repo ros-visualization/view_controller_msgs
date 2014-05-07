@@ -5,7 +5,7 @@ set(MSG_DEPS
   std_msgs
   geometry_msgs)
 
-find_package(catkin REQUIRED genmsg ${MSG_DEPS})
+find_package(catkin REQUIRED COMPONENTS genmsg message_generation ${MSG_DEPS})
 
 set(MSG_FILES
 CameraPlacement.msg
@@ -15,4 +15,4 @@ add_message_files(DIRECTORY msg FILES ${MSG_FILES})
 
 generate_messages(DEPENDENCIES ${MSG_DEPS})
 
-catkin_package(DEPENDS ${MSG_DEPS})
+catkin_package(CATKIN_DEPENDS ${MSG_DEPS} message_runtime)
