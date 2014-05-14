@@ -10,7 +10,7 @@ from geometry_msgs.msg import Point, Vector3
 
 rospy.init_node("camera_test", anonymous = True)
 
-pub = rospy.Publisher("/rviz/camera_placement", CameraPlacement)
+pub = rospy.Publisher("/rviz/camera_placement", CameraPlacement, queue_size = 1)
 
 rate_float = 0.5
 rate = rospy.Rate(rate_float)
@@ -18,17 +18,17 @@ rate = rospy.Rate(rate_float)
 cp = CameraPlacement()
 
 while not rospy.is_shutdown():
-  
+
   #print "Top of loop!"
 
   t = rospy.get_time()
-  
+
   cp.target_frame = "base_link"
-  
+
   p = Point(5,5,0)
   cp.eye.point = p
   cp.eye.header.frame_id = "rotating_frame"
-  
+
   f = Point(0, 0, 0)
   cp.focus.point = f
   cp.focus.header.frame_id = "base_link"
@@ -36,7 +36,7 @@ while not rospy.is_shutdown():
   up = Vector3(0, 0, 1)
   cp.up.vector = up
   cp.up.header.frame_id = "base_link"
-  
+
   cp.time_from_start = rospy.Duration(-1.0)
   cp.mouse_interaction_mode = (cp.mouse_interaction_mode + 1)%3
   cp.interaction_disabled = not cp.interaction_disabled
