@@ -1,12 +1,12 @@
 <package>
   <name>view_controller_msgs</name>
-  <version>0.5.2</version>
+  <version>0.1.1</version>
   <description>Messages for (camera) view controllers</description>
   <author email="adamleeper@gmail.com">Adam Leeper</author>
 
   <maintainer email="adamleeper@gmail.com">Adam Leeper</maintainer>
 
-  <license>BSD</license>  
+  <license>BSD</license>
   <url type="website">http://ros.org/wiki/view_controller_msgs</url>
   <url type="bugtracker">https://github.com/ros-visualization/view_controller_msgs/issues</url>
   <url type="repository">https://github.com/ros-visualization/view_controller_msgs</url>
