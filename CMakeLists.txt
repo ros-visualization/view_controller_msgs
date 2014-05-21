@@ -16,3 +16,9 @@ add_message_files(DIRECTORY msg FILES ${MSG_FILES})
 generate_messages(DEPENDENCIES ${MSG_DEPS})
 
 catkin_package(CATKIN_DEPENDS ${MSG_DEPS} message_runtime)
+
+install(PROGRAMS
+  scripts/CameraTest
+  scripts/SquareTest
+  scripts/ControlsTest
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
