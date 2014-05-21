@@ -2,8 +2,8 @@
 Changelog for package view_controller_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.2 (2014-05-20)
+------------------
 * force correct version in package.xml
 * rename scripts; install scripts
 * fix test scripts

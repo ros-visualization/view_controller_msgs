@@ -1,6 +1,6 @@
 <package>
   <name>view_controller_msgs</name>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <description>Messages for (camera) view controllers</description>
   <author email="adamleeper@gmail.com">Adam Leeper</author>
 
