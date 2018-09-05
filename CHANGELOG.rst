@@ -2,6 +2,16 @@
 Changelog for package view_controller_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#5 <https://github.com/ros-visualization/view_controller_msgs/issues/5>`_ from k-okada/lunar-devel
+  change maintainer to ROS Orphaned Package Maintainers
+* change maintainer to ROS Orphaned Package Maintainers
+* Merge pull request `#4 <https://github.com/ros-visualization/view_controller_msgs/issues/4>`_ from k-okada/add_travis
+  update travis.yml
+* update travis.yml
+* Contributors: Kei Okada
+
 0.1.2 (2014-05-20)
 ------------------
 * force correct version in package.xml
