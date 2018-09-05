@@ -2,8 +2,8 @@
 Changelog for package view_controller_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.3 (2018-09-05)
+------------------
 * Merge pull request `#5 <https://github.com/ros-visualization/view_controller_msgs/issues/5>`_ from k-okada/lunar-devel
   change maintainer to ROS Orphaned Package Maintainers
 * change maintainer to ROS Orphaned Package Maintainers
