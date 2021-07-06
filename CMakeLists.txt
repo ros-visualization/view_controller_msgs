@@ -9,6 +9,8 @@ find_package(catkin REQUIRED COMPONENTS genmsg message_generation ${MSG_DEPS})
 
 set(MSG_FILES
 CameraPlacement.msg
+CameraMovement.msg
+CameraTrajectory.msg
 )
 
 add_message_files(DIRECTORY msg FILES ${MSG_FILES})
