@@ -2,6 +2,18 @@
 Changelog for package view_controller_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2021-07-21)
+------------------
+* add new status badge
+* remove ci badge for now
+* add gh actions for noetic and melodic
+* major version bump since added new msgs
+* Merge pull request `#8 <https://github.com/ros-visualization/view_controller_msgs/issues/8>`_ from Razlaw/camera_trajectories
+  add messages to support moving view camera along trajectory
+* add CameraMovement and CameraTrajectory messages to support moving view camera along trajectory
+* take over maintenance from orphaned package group (`#7 <https://github.com/ros-visualization/view_controller_msgs/issues/7>`_)
+* Contributors: Evan Flynn, razlaw
+
 0.1.3 (2018-09-05)
 ------------------
 * Merge pull request `#5 <https://github.com/ros-visualization/view_controller_msgs/issues/5>`_ from k-okada/lunar-devel
